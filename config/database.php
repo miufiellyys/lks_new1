@@ -1,6 +1,6 @@
 <?php
 $host = "localhost";
-$dbname = "sistem_informasi_koperasi_sekolah";
+$dbname = "db_cooperative";
 $user = "root";
 $pass = "";
 
