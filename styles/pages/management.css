@@ -1,0 +1,63 @@
+.toolbar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 20px;
+  gap: 16px;
+}
+
+.table-container {
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+th,
+td {
+  padding: 14px 18px;
+  border-bottom: 1px solid var(--line);
+  vertical-align: middle;
+}
+
+th {
+  background: #fff1f2;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--primary-hover);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+tbody tr {
+  transition: background 0.2s ease;
+}
+
+tbody tr:last-child td {
+  border-bottom: none;
+}
+
+tbody tr:hover {
+  background: #fffbfb;
+}
+
+td.actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.empty {
+  text-align: center;
+  color: var(--text-muted);
+  padding: 40px 24px;
+  font-size: 14px;
+  font-weight: 500;
+}

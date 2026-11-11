@@ -1,0 +1,34 @@
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background: var(--bg-body);
+}
+
+.topbar {
+  background: var(--white);
+  padding: 20px 32px;
+  border-bottom: 1px solid var(--line);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.02);
+}
+
+.topbar h1 {
+  font-size: 22px;
+  font-weight: 800;
+  color: var(--text-dark);
+  letter-spacing: -0.5px;
+}
+
+.topbar p {
+  font-size: 13px;
+  color: var(--text-dark);
+  margin-top: 2px;
+}
+
+.content {
+  padding: 32px;
+  flex: 1;
+}
