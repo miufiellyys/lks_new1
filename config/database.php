@@ -2,7 +2,7 @@
 $host = "localhost";
 $dbname = "sistem_informasi_koperasi_sekolah";
 $user = "root";
-$pass = "pass";
+$pass = "";
 
 $dsn = "mysql:host=$host;dbname=$dbname;charset=utf8mb4";
 
